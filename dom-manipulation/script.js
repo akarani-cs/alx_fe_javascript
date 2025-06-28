@@ -26,7 +26,10 @@ function updateCategoryOptions() {
 }
 
 // Show a random quote
-function displayRandomQuote() {
+
+
+
+function showRandomQuote() {
   const selectedCategory = categorySelect.value;
   let filteredQuotes = quotes;
 
@@ -68,7 +71,7 @@ function addQuote() {
 }
 
 // Event Listeners
-newQuoteBtn.addEventListener("click", displayRandomQuote);
+newQuoteBtn.addEventListener("click", showRandomQuote);
 addQuoteBtn.addEventListener("click", addQuote);
 
 // Initialize dropdown with categories
