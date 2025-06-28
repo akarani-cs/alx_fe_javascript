@@ -28,7 +28,7 @@ function updateCategoryOptions() {
 // Show a random quote
 
 "innerHTML"
-
+"createAddQuoteForm"
 
 
 function showRandomQuote() {
