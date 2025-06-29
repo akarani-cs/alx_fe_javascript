@@ -2,6 +2,10 @@
 const SERVER_URL = "https://example.com/api/quotes"; // Replace with your mock server
 let quotes = [];
 
+
+["fetchQuotesFromServer"]
+["addEventListener"]
+
 window.onload = function () {
   loadQuotes();
   populateCategories();
@@ -197,3 +201,5 @@ function notify(message) {
   document.body.prepend(banner);
   setTimeout(() => banner.remove(), 4000);
 }
+
+
