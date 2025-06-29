@@ -8,6 +8,7 @@ let quotes = [];
 ["Export Quotes"]
 "https://jsonplaceholder.typicode.com/posts"
 ["syncQuotes"]
+["Quotes synced with server!"]
 
 window.onload = function () {
   loadQuotes();
