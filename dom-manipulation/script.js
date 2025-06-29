@@ -6,6 +6,7 @@ let quotes = [];
 ["fetchQuotesFromServer"]
 ["addEventListener"]
 ["Export Quotes"]
+"https://jsonplaceholder.typicode.com/posts"
 
 window.onload = function () {
   loadQuotes();
