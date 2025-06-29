@@ -5,6 +5,7 @@ let quotes = [];
 
 ["fetchQuotesFromServer"]
 ["addEventListener"]
+["Export Quotes"]
 
 window.onload = function () {
   loadQuotes();
